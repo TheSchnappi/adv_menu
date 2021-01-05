@@ -261,6 +261,7 @@ style module_adv_verb_menu_button:
     ysize                       module_adv_verb_menu_button_height
 
 style module_adv_verb_menu_button_text:
+    font                        module_adv_verb_font
     size                        module_adv_verb_font_size
     color                       module_adv_verb_font_color
     hover_color                 module_adv_verb_font_color_hover
