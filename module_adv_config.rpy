@@ -69,7 +69,7 @@ define module_adv_verb_menu_button_background_selected          = "#88888888"
 define module_adv_verb_menu_button_background_selected_hover    = "#ffffff88"
 
 ## Verb icon font variables
-define module_adv_verb_icon_font                                = "fonts/fa-solid-900.otf"
+define module_adv_verb_icon_font                                = "DejaVuSans.ttf"
 define module_adv_verb_icon_size                                = 40
 define module_adv_verb_icon_font_color                          = "#888888"
 define module_adv_verb_icon_font_color_hover                    = "#dddddd"
