@@ -37,10 +37,10 @@ $ increase_choice_repeat(_return)
 jump expression _return
 ```
 
-- First you want to clear all previously registered actions with the adv_mode.clear_actions() function.
+- First you want to clear all previously registered actions with `adv_mode.clear_actions()` function.
 - Then you need to register your different actions the player should interact with. To register an action you simply call the `adv_mode.register_action()` function with three parameters:
   - The first parameter is the verbs internal name you want to use for this action, like "use" or "look".
-  - The second parameter is the text of the action, something like "Room" or "Chair".
-  - The third parameter is simply the name of the label the action will jump to when clicked.
-- Then call the screen `adv_menu`
-- Then you have to add the two lines `$ increase_choice_repeat(_return)` and `jump expression _return` that execute and jump to the label.
+  - The second parameter is the text of the action that is displayed to the player, something like "Room" or "Chair".
+  - The third parameter is simply the name of the label the action will jump to when selected by the player.
+- After this, call the screen `adv_menu` to display the menu
+- At last you have to add the two lines `$ increase_choice_repeat(_return)` and `jump expression _return` that execute and jump to the label, based on the return value by the called screen.
